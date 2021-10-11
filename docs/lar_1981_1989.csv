@@ -1,0 +1,55 @@
+﻿field,field_name,type,description_codes
+respondent_name,Respondent Name,C,
+respondent_id,Respondent ID,,
+msamd,MSA of Report,,
+census_tract,Census Tract Number,C,000001-nnnnnn Individual
+census_tract,Census Tract Number,C,888888 = Section 2 Outside
+census_tract,Census Tract Number,C,9999 = Smalll/Untracted County
+state_code,State FIPS,C,FIPS standards
+county_code,County FIPS,C,FIPS standards
+agency_code,Supervisory Agency Code,C,1 = OCC
+agency_code,Supervisory Agency Code,C,2 = Federal Reserve System
+agency_code,Supervisory Agency Code,C,3 = Federal Deposit Insurance Corporation
+agency_code,Supervisory Agency Code,C,4 = Office of Thrift Supervision
+agency_code,Supervisory Agency Code,C,5 = National Credit Union Administration
+agency_code,Supervisory Agency Code,C,6= State Exempt
+census_validity,Census Validity Flag,C,01 = Valid 1980 Tract
+census_validity,Census Validity Flag,C,10 = Invalid MSA
+census_validity,Census Validity Flag,C,11 = Invlaid Tract
+census_validity,Census Validity Flag,C,12 = Invalid State/Country Number
+census_validity,Census Validity Flag,C,13 = Section 2 Tract (88-89)
+census_validity,Census Validity Flag,C,15 = No Loans Reported
+census_validity,Census Validity Flag,C,16 = Valid Small/UT Cty
+census_validity,Census Validity Flag,C,18 = Respondent reported at St/Cty instead of required Census Tract Level
+flag_govt,"VA, FHA, FmHA Loans: Validity Flag",N,0 = Number & Amount are Zero
+flag_govt,"VA, FHA, FmHA Loans: Validity Flag",N,1 = Valid (Within Tolerance)
+flag_govt,"VA, FHA, FmHA Loans: Validity Flag",N,2 = Quality Error
+flag_govt,"VA, FHA, FmHA Loans: Validity Flag",N,3 = Invalid
+num_govt,"VA, FHA, FmHA Loans: Number of Loans",N,By Respondent in Tract
+vol_govt,"VA, FHA, FmHA Loans: Total Amount ($)",N,In Thousands of Dollars (Tolerance = 2 thru 625)
+flg_conv,Conventional Loans: Validity Flag,N,0 = Number & Amount are Zero
+flg_conv,Conventional Loans: Validity Flag,N,1 = Valid (Within Tolerance)
+flg_conv,Conventional Loans: Validity Flag,N,2 = Quality Error
+flg_conv,Conventional Loans: Validity Flag,N,3 = Invalid
+num_conv,Conventional Loans: Number of Loans,N,By Respondent in Tract
+vol_conv,Conventional Loans: Total Amount ($),N,In Thousands of Dollars (Tolerance = 5 thru 750)
+flg_improv,Home Improvement: Validity Flag,N,0 = Number & Amount are Zero
+flg_improv,Home Improvement: Validity Flag,N,1 = Valid (Within Tolerance)
+flg_improv,Home Improvement: Validity Flag,N,2 = Quality Error
+flg_improv,Home Improvement: Validity Flag,N,3 = Invalid
+num_improv,Home Improvement: Number of Loans,N,By Respondent in Tract
+vol_improv,Home Improvement: Total Amount ($),N,In Thousands of Dollars (Tolerance = 1 thru 300)
+flg_multi,All Multi Family: Validity Flag,N,0 = Number & Amount are Zero
+flg_multi,All Multi Family: Validity Flag,N,1 = Valid (Within Tolerance)
+flg_multi,All Multi Family: Validity Flag,N,2 = Quality Error
+flg_multi,All Multi Family: Validity Flag,N,3 = Invalid
+num_multi,All Multi Family: Number of Loans,N,By Respondent in Tract
+vol_multi,All Multi Family: Total Amount ($),N,"In Thousands of Dollars (Tolerance = 5 thru 20,000)"
+flg_nonocc,Non-Occupant Loans: Validity Flag,N,0 = Number & Amount are Zero
+flg_nonocc,Non-Occupant Loans: Validity Flag,N,1 = Valid (Within Tolerance)
+flg_nonocc,Non-Occupant Loans: Validity Flag,N,2 = Quality Error
+flg_nonocc,Non-Occupant Loans: Validity Flag,N,3 = Invalid
+num_nonocc,Non-Occupant Loans: Number of Loans,N,By Respondent in Tract
+vol_nonocc,Non-Occupant Loans: Total Amount ($),N,"In Thousands of Dollars (Tolerance = 5 thru 1,000)"
+record_quality,Record Quality Flag,C,0 = Item Validity Flags are Accurate
+record_quality,Record Quality Flag,C,"1 = Item Validity Flags to be ignored; ""Out of Tolerance"" values (2 in item flag) found to valid"

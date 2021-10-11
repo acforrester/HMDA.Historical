@@ -1,5 +1,15 @@
 # Historical Data from the Home Mortgage Disclosure Act (HMDA)
 
+## Contents
+
+1. [Introduction](#introduction)
+2. [Data Description](#data-Description)
+3. [Cleaning Methodology](#cleaning-methodology)
+4. [Codebooks](#codebooks)
+5. [Citation](#citation)
+
+## Introduction
+
 This repository aims to provide historical mortgage lending data pursuant to the Home Mortgage Disclosure Act (HMDA, [12 USC &sect; 29](https://www.law.cornell.edu/uscode/text/12/chapter-29)).
 
 These data are provided *as-is* [here](https://doi.org/10.3886/E151921V1) in order to further discussion in U.S. housing policy and the economics literature.
@@ -66,6 +76,9 @@ The 1990-onwards HMDA data also provide detailed information of the financial in
 | 1981-1993      | 1980 Census  |
 | 1994-2003      | 1990 Census  |
 | 2004-2006      | 2000 Census  |
+
+## Codebooks
+Please see the documentation for the variable fields and codes [here](docs/).
 
 ## Citation
 Please cite the data:
