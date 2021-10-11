@@ -1,15 +1,18 @@
 # Historical Data from the Home Mortgage Disclosure Act (HMDA)
 
+This repository aims to provide historical mortgage lending data pursuant to the Home Mortgage Disclosure Act (HMDA, [12 USC &sect; 29](https://www.law.cornell.edu/uscode/text/12/chapter-29)).
 
-## Data Description
-
-The data provided are a lightly cleaned copy of the HMDA data spanning (for now) 1981-2006.  It is important to note that HMDA reporting and data release standards over this time period changed substantially. In addition, the geographies represented and financial institutions reporting changed as well. It is important to take these changes into consideration in any analysis of the HMDA data over time. Given these caveats, my objective is to provide these the HMDA data in an easily accessible, machine-readable format (pipe `|` delimited).
+These data are provided *as-is* [here](https://doi.org/10.3886/E151921V1) in order to further discussion in U.S. housing policy and the economics literature.
 
 Data on American housing are as important as ever in current public policy debates. My goal is to advance these debates by making historical data accessible and wide open for researchers.
 
 If these data are helpful to you or if you notice any errors, please drop me a line. As the great people at IPUMS decry: use it for good!
 
-Table 1. Data Availability by Reporting Year
+## Data Description
+
+The data provided are a lightly cleaned copy of the HMDA data spanning (for now) 1981-2006.  It is important to note that HMDA reporting and data release standards over this time period changed substantially. In addition, the geographies represented and financial institutions reporting changed as well. It is important to take these changes into consideration in any analysis of the HMDA data over time. Given these caveats, my objective is to provide these the HMDA data in an easily accessible, machine-readable format (pipe `|` delimited).
+
+#### Table 1. Data Availability by Reporting Year
 | Reporting Year | Tabular | LAR | Panel | Transmittal Sheet | Lowest Unit |
 | :------------- | :------ | :-- | :---- | :---------------- | :---------- |
 | 1981  | X |   |   |   | Tract    |
@@ -57,21 +60,14 @@ For each year I did my best to harmonise the variable names to easily match and 
 
 The 1990-onwards HMDA data also provide detailed information of the financial instituions that reported HMDA data.  These data are provided in two sources: the transmittal sheet (TS) and reporter panel (panel).  These information sheets provide information on each HMDA respondent, such as the institution's office location, federal tax ID, and Federal Reserve `RSSD_ID`.  These data help link the HMDA data to additional data sources, such as the Call Reports, Community Reinvestment Act (CRA) disclosure data, Summary of Deposits (SOD) branch location data, Small Business Administration 7(a) (SBA) lending data, etc.
 
-Table X. Census Tract Delineations by HMDA Reporting Year
-
+#### Table 2. Census Tract Delineations by HMDA Reporting Year
 | Reporting Year | Delineations |
 | :------------- | :----------- |
 | 1981-1993      | 1980 Census  |
 | 1994-2003      | 1990 Census  |
 | 2004-2006      | 2000 Census  |
 
+## Citation
+Please cite the data:
 
-
-
-
-
-
-
-### Further Objectives and Discussion
-
-## References
+Forrester, Andrew C. Historical Home Mortgage Disclosure Act (HMDA) Data. Ann Arbor, MI: Inter-university Consortium for Political and Social Research [distributor], 2021-10-10. [https://doi.org/10.3886/E151921V1](https://doi.org/10.3886/E151921V1)
