@@ -1,0 +1,17 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# data files
+data-prep/*.txt
+data-prep/*.zip
+
+# LAR files
+data-prep/lar/*
+
+# Panel files
+data-prep/panel/*
+
+# TS files
+data-prep/ts/*
